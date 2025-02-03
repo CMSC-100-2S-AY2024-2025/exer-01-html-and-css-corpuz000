@@ -8,3 +8,33 @@
     height: 200px;
     width:500;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid purple;
+    height: 900px;
+    width:500;
+}
+
+.content > .featphoto{
+    justify-content: center;
+    border: 1px solid blue;
+    height: 200px;
+    width:300px;
+}
+
+.content > .prevproj{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content > .prevproj > .prev-photos{
+    border: 1px solid blue;
+    height: 200px;
+    width:250px;
+}
