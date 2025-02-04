@@ -15,7 +15,7 @@ body{
     align-items: center;
 }
 .maintitle > .logo{
-    height:60px;
+    height:70px;
     margin: 5px;
     margin-right: 30px;
 }
@@ -61,18 +61,28 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 900px;
+    height: 1000px;
     width:500;
     margin: 10px;
     background-color: #d0b8ea;
     font-family:Arial, Helvetica, sans-serif;
+    color: #240b40;
 }
 /*----------------------------PROJECTS---------------------------------*/
 .content > .featphoto{
     justify-content: center;
-    border: 1px solid blue;
-    height: 200px;
-    width:300px;
+    height: 300px;
+    width:500px;
+    border: 2px solid 685182;
+    background-image: url("img/passenger rush.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+.gamedesc{
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 .content > .prevproj{
@@ -80,14 +90,37 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+    margin-bottom: 30px;
 }
 
-.content > .prevproj > .prev-photos{
+.content > .prevproj > .prev-photos1{
     border: 1px solid blue;
     height: 200px;
     width:250px;
     margin: 5px;
+    background-image: url("img/silly pedestrian.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.content > .prevproj > .prev-photos2{
+    border: 1px solid blue;
+    height: 200px;
+    width:250px;
+    margin: 5px;
+    background-image: url("img/movie tickets.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.content > .prevproj > .prev-photos3{
+    border: 1px solid blue;
+    height: 200px;
+    width:250px;
+    margin: 5px;
+    background-image: url("img/ins.png");
+    background-size: cover;
+    background-position: center;
 }
 /*----------------------------SKILLS AND AUTOBIOGRAPHY---------------------------------*/
 .content > .bio{
@@ -105,19 +138,37 @@ body{
 }
 .content > .bio > .autobiography{
     height: 200px;
-    width:250px;
+    width:300px;
     margin-left: 40px;
 }
 /*--------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------------------*/
 .footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    font-family:Arial, Helvetica, sans-serif;
     padding: 20px;
     border: 2px solid #8366a3;
-    height: 70px;
+    height: 50px;
     width:500;
     margin: 10px;
 }
+
+.footer > .logofooter{
+    height: 50px;
+    margin-right: 30px;
+}
+
+.footertxt{
+    font-size:x-small;
+    margin: 2px;
+}
+
+.return{
+    font-size:small;
+    color: #8366a3;
+    margin-left: 30px;
+}
+
